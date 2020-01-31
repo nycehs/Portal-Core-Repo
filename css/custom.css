@@ -253,7 +253,7 @@
   }
   
   .btn-middle:focus, .btn-middle.focus {
-	box-shadow: 0 0 0 0.2rem rgba(204, 108, 224, 0.5);
+	box-shadow: 0 0 0 0.2rem rgba(227,229,230, 0.5);
   }
   
   .btn-middle.disabled, .btn-middle:disabled {
@@ -271,7 +271,7 @@
   
   .btn-middle:not(:disabled):not(.disabled):active:focus, .btn-middle:not(:disabled):not(.disabled).active:focus,
   .show > .btn-middle.dropdown-toggle:focus {
-	box-shadow: 0 0 0 0.2rem rgba(204, 108, 224, 0.5);
+	box-shadow: 0 0 0 0.2rem rgba(227,229,230, 0.5);
   }
 
 
