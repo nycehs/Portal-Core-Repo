@@ -240,6 +240,40 @@
 	box-shadow: 0 0 0 0.2rem rgba(186, 228, 179, 0.5);
   }
 
+  .btn-middle {
+	color: #6a6a6a;
+	background-color: #fafafa;
+	border-color: #fafafa;
+  }
+  
+  .btn-middle:hover {
+	color: #6a6a6a;
+	background-color: #e3e5e6;
+	border-color: #e3e5e6;
+  }
+  
+  .btn-middle:focus, .btn-middle.focus {
+	box-shadow: 0 0 0 0.2rem rgba(204, 108, 224, 0.5);
+  }
+  
+  .btn-middle.disabled, .btn-middle:disabled {
+	color: #6a6a6a;
+	background-color: #d7dbde;
+	border-color: #d7dbde;
+  }
+  
+  .btn-middle:not(:disabled):not(.disabled):active, .btn-middle:not(:disabled):not(.disabled).active,
+  .show > .btn-middle.dropdown-toggle {
+	color: #6a6a6a;
+	background-color: #d7dbde;
+	border-color: #d7dbde;
+  }
+  
+  .btn-middle:not(:disabled):not(.disabled):active:focus, .btn-middle:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-middle.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0.2rem rgba(204, 108, 224, 0.5);
+  }
+
 
 
   /* adding breadcrumb classes from Bootstrap */
