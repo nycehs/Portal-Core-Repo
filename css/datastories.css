@@ -223,7 +223,7 @@ html {scroll-behavior: smooth;}
 		margin-bottom: 20px;
 	}
 
-
+/* comment out image zoom
 	img {
 		transition:transform 0.25s ease;
 	}
@@ -232,6 +232,7 @@ html {scroll-behavior: smooth;}
 		-webkit-transform:scale(1.5);
 		transform:scale(1.5);
 	}
+*/
 
 
 	body {
